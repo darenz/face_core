@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FloatArray2String	cvtstring.cpp	/^int FloatArray2String(const float* array,const int length,string& out_string)$/;"	f
+Producer	producer.cpp	/^Producer::Producer(DataSource& tdata_source,string detectoer_model,string alignmenter_model,string identifier_model) : detector(detectoer_model.c_str()),alignmenter(alignmenter_model.c_str())$/;"	f	class:Producer
+String2FloatArray	cvtstring.cpp	/^int String2FloatArray(const string& in_string,const int length,float* array)$/;"	f
+Student	student.cpp	/^Student::Student()$/;"	f	class:Student
+fileRecv	recvfile_main.cpp	/^int fileRecv(int socket,const char* path)$/;"	f
+generateFaces	producer.cpp	/^Status Producer::generateFaces()$/;"	f	class:Producer
+generateID	producer.cpp	/^Status Producer::generateID()$/;"	f	class:Producer
+generateResult	producer.cpp	/^Status Producer::generateResult()$/;"	f	class:Producer
+getFeatures	inputToDB_main.cpp	/^float* getFeatures(string dir,$/;"	f
+getImage	producer.cpp	/^Status Producer::getImage(string img_dir)$/;"	f	class:Producer
+insertNewStudent	db.cpp	/^int mysql_db::insertNewStudent(const SaveData& data)$/;"	f	class:mysql_db
+insertStudent	recvfile_main.cpp	/^int insertStudent(int socket_s)$/;"	f
+main	inputToDB_main.cpp	/^int main()$/;"	f
+main	recvfile_main.cpp	/^int main()$/;"	f
+main	scanForResult_main.cpp	/^int main()$/;"	f
+mysql_db	db.cpp	/^mysql_db::mysql_db()$/;"	f	class:mysql_db
+operator =	student.cpp	/^Student& Student::operator=(const Student& otherS)$/;"	f	class:Student
+pullIdentity	student.cpp	/^Status Student::pullIdentity(DataSource& data_source,seeta::FaceIdentification* const identifier)$/;"	f	class:Student
+query	db.cpp	/^int mysql_db::query(const string query)$/;"	f	class:mysql_db
+scanForResults	recvfile_main.cpp	/^int scanForResults(int new_fd)$/;"	f
+searchStudentsIfExists	db.cpp	/^int mysql_db::searchStudentsIfExists(string name,string id)$/;"	f	class:mysql_db
+sendResult	producer.cpp	/^Status Producer::sendResult(LinkList<ResultData>& results)$/;"	f	class:Producer
+serverInit	recvfile_main.cpp	/^int serverInit(int port)$/;"	f
+show	db.cpp	/^int mysql_db::show()$/;"	f	class:mysql_db
+showResults	scanForResult_main.cpp	/^void showResults(string path,LinkList<ResultData>& results)$/;"	f
+toStudentDataSource	db.cpp	/^int mysql_db::toStudentDataSource(DataSource& data_source)$/;"	f	class:mysql_db
+updateDataSource	producer.cpp	/^Status updateDataSource()$/;"	f
+waitModifyCMD	producer.cpp	/^Status Producer::waitModifyCMD()$/;"	f	class:Producer

@@ -197,7 +197,6 @@ int scanForResults(int new_fd)
     send(socket_info,path_temp,strlen(path_temp),0);
     
     unsigned char re_temp[100];
-    memset(re_temp,0,100);
     int n; 
     cout<<"sending results to client..."<<endl;
 

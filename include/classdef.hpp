@@ -135,6 +135,9 @@ class ResultData // result to send back
 
             ResultData& operator =(const ResultData& otherR)
             {
+                memset(this->name,0,20);
+                memset(this->id,0,20);
+                
                 memcpy(this->name,otherR.name,strlen(otherR.name));
                 memcpy(this->id,otherR.id,strlen(otherR.id));
                 this->face_rectangle = otherR.face_rectangle;

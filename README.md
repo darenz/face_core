@@ -2,6 +2,7 @@
     本程序封装了seetaFace人脸识别引擎,实现服务器+安卓app人脸签到系统。
     所有c++代码皆为服务器代码。app主要java源码在android_src文件夹中。
     本程序暂未实现多线程处理，仅供交流学习。
+
 ## 编译
 * makeRecvfile.sh 编译recv程序。图像接收程序
 * makeScan.sh 编译scan程序。图像检测程序

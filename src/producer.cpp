@@ -153,14 +153,3 @@ Status Producer::sendResult(LinkList<ResultData>& results)
     return OK;
 }
 
-Status Producer::waitModifyCMD()
-{
-    ;
-    return OK;
-}
-
-Status updateDataSource()
-{
-    ;
-    return OK;
-}

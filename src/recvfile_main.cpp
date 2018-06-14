@@ -151,16 +151,6 @@ int insertStudent(int socket_s)
         recv(socket_info,&status,sizeof(int),0);
         cout<<"sending status to client(1:OK):"<<status<<endl;
         send(socket_s,&status,sizeof(status),0);
-        /*
-        if(status == 1)//ok
-        {
-            send(socket_s,&status,sizeof(status),0);
-        }
-        else//erro
-        {
-            send(socket_s,&status,sizeof(status),0);
-        }
-        */
         close(socket_info);
     }
     else 

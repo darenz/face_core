@@ -25,21 +25,6 @@ int main()
 {
     LinkList<SaveData> data_source;
 
-   
-//    seeta::FaceDetection face_detector(detectoer_model.c_str());
-//    face_detector.SetMinFaceSize(40);
-//    face_detector.SetScoreThresh(2.f);
-//    face_detector.SetImagePyramidScaleFactor(0.8f);
-//    face_detector.SetWindowStep(4,4);
-//    seeta::FaceAlignment face_alignmenter(alignmenter_model.c_str());
-//    seeta::FaceIdentification face_recognizer(identifier_model.c_str()) ;
-//    int feature_size = face_recognizer.feature_size();
-//    if(feature_size != 2048)
-//    {
-//	    cout<<"feature erro"<<std::endl;
-//	    return 0;
-//    }
-
     mysql_db db;
     
     int server_fd = socket(AF_INET,SOCK_STREAM,0);
@@ -192,17 +177,6 @@ float* getFeatures(string dir)
     face_rect.y = faces_v[0].bbox.y;
     face_rect.width = faces_v[0].bbox.width;
     face_rect.height = faces_v[0].bbox.height;
-//// ?
-/*
-    uint l = faces_v.size();
-    seeta::FaceInfo* pface;
-    for(uint i=0;i<l;i++)
-    {
-        pface = &faces_v[i];
-        delete pface;
-    }
-    */
-//// ?
 
     /*
     cv::rectangle(img_3channels, face_rect, CV_RGB(0, 0, 255), 4, 8, 0);

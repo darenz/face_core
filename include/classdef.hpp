@@ -27,7 +27,6 @@ class SaveData
         FaceFeatures features;
         string name;
         string id;
-///what the fuck
         SaveData(){
             features = new float[2048];
             name = "none";
@@ -186,27 +185,9 @@ class Producer
         // send back to app
         Status sendResult(LinkList<ResultData>& results);
 
-        // wait app CMD to modify the results got
-        Status waitModifyCMD();
-
-        // store 
-        // informantion results && features
-        Status updateDataSource();
-        
         int getN()
         {
             return face_num;
-        }
-
-        ~Producer()
-        {
-            /*
-            for(uint i=0;i<size;i++)
-            {
-                p = &info_list[i];
-                delete p;
-            }
-            */
         }
        
     private:

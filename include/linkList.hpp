@@ -151,21 +151,6 @@ Status LinkList<ElemType>::deleteElem(ElemType e)
 template<typename ElemType>
 Status LinkList<ElemType>::clear()
 {
-    /*
-    NodePointer p = head->next;
-    NodePointer q = p->next;
-    while(q->next!=NULL)
-    {
-        delete p;
-        p = q;
-        q = q->next;
-    }
-    delete p;
-    delete q;
-    length = 0;
-    head->next = NULL;
-    return OK;
-    */
     NodePointer p = head->next;
     head->next=0;
     while(p)

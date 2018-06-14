@@ -18,13 +18,11 @@ class mysql_db
         {
             mysql_close(mysql);
         }
-        //mysql_db(string host,string user,string passwd,string db);
 
         int query(const string query);
         int show();
         int insertNewStudent(const SaveData& data);
         int searchStudentsIfExists(string name,string id);
-        //int getStudentFeatures();
 
         int toStudentDataSource(DataSource& data_source);
     private:

@@ -5,6 +5,7 @@ using namespace std;
 mysql_db::mysql_db()
 {
     mysql = mysql_init(NULL);
+    //使用前需初始化mysql 连接参数，定义如下
     //MYSQL* mysql
     //host
     //user

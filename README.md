@@ -10,4 +10,4 @@
 注：本程序采用Opencv3 若使用opencv2，需要去掉opencv_imgcodecs库
 
 ## 运行
-* 运行前先source执行 loadENV.sh 添加seetaFace动态库路径，或手动加入环境变量  
+* 运行前先source执行 ·. loadENV.sh` 添加seetaFace动态库路径，或手动加入环境变量  

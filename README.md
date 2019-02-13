@@ -11,3 +11,39 @@
 
 ## 运行
 * 运行前先source执行 `. loadENV.sh` 添加seetaFace动态库路径，或手动加入环境变量  
+
+## 效果
+* 录入 
+
+若存在则自动更新
+
+![](pics/录入.png)
+
+![](pics/录入s.png)
+
+![](pics/更新s.png)
+
+* 检测
+
+![](pics/检测.png)
+
+![](pics/检测1s.png)
+
+![](pics/检测23s.png)
+
+* 从检测结果中添加
+
+![](pics/添加.png)
+
+## 性能分析
+* 运行环境
+
+![](pics/server.png)
+
+* 组件性能
+
+![](pics/cost.png)
+
+* 系统性能
+
+![](pics/cost2.png)

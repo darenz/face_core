@@ -1,7 +1,7 @@
 ## 说明
     本程序封装了seetaFace人脸识别引擎,实现服务器+安卓app人脸签到系统。
     所有c++代码皆为服务器代码。app主要java源码在android_src文件夹中。
-    本程序暂未实现多线程处理，仅供交流学习。
+    本程序仅供交流学习。
 
 ## 编译
 * makeRecvfile.sh 编译recv程序。图像接收程序
@@ -17,33 +17,33 @@
 
 若存在则自动更新
 
-![](pics/录入.png)
+<div align=center><img src="pics/录入.png" width="600"/></div>
 
-![](pics/录入s.png)
+<div align=center><img src="pics/录入s.png" width="600"/></div>
 
-![](pics/更新s.png)
+<div align=center><img src="pics/更新s.png" width="600"/></div>
 
 * 检测
 
-![](pics/检测.png)
+<div align=center><img src="pics/检测.png" width="600"/></div>
 
-![](pics/检测1s.png)
+<div align=center><img src="pics/检测1s.png" width="600"/></div>
 
-![](pics/检测23s.png)
+<div align=center><img src="pics/检测23s.png" width="600"/></div>
 
 * 从检测结果中添加
 
-![](pics/添加.png)
+<div align=center><img src="pics/添加.png" width="600"/></div>
 
 ## 性能分析
 * 运行环境
 
-![](pics/server.png)
+<div align=center><img src="pics/server.png" width="600"/></div>
 
 * 组件性能
 
-![](pics/cost.png)
+<div align=center><img src="pics/cost.png" width="300"/></div>
 
 * 系统性能
 
-![](pics/cost2.png)
+<div align=center><img src="pics/cost2.png" width="300"/></div>
